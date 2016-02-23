@@ -1,0 +1,32 @@
+label {
+    color: #000066;
+}
+
+.submitButton {
+	color: #000066;
+}
+
+#firstName {
+	margin-left: 59px;
+}
+
+#lastName {
+	margin-left: 61px;
+}
+
+#empID {
+	margin-left: 57px;
+}
+
+#empJobTitle {
+	margin-left: 74px;
+}
+
+#empSalary {
+	margin-left: 90px;
+}
+
+#submitButton {
+	margin-left: 208.2px;
+	width: 130px;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "homework_feb18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "clientapp.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node serverapp.js"
+  },
+  "author": "John",
+  "license": "ISC"
+}

@@ -1,0 +1,50 @@
+<DOCTYPE html>
+<html>
+  <head>
+  	<title>Weekend one challenge</title>
+  	<script type="text/javascript" src="../vendors/jquery.min.js"></script>
+  	<script type="text/javascript" src="../scripts/clientapp.js"></script>
+  	<link rel="stylesheet" type="text/css" href="../styles/stylesheets.css">
+  </head>
+  <body>
+    	<div>
+			<form id="employeeForm">
+				<label for="firstName">Employee First Name:</label>
+				<input type="text" id="firstName" name="firstName"/>
+				</br>
+				<label for="lastName">Employee Last Name:</label>
+				<input type="text" id="lastName" name="lastName"/>
+				</br>
+				<label for="empID">Employee ID Number:</label>
+				<input type="text" id="empID" name="empID"/>
+				</br>
+				<label for="empJobTitle">Employee Job Title: </label>
+				<input type="text" id="empJobTitle" name="empJobTitle"/>
+				</br>
+				<label for="empSalary">Employee Salary: </label>
+				<input type="text" id="empSalary" name="empSalary"/>
+				</br>
+				<input id="submitButton" type="submit" value="Submit"/>
+			</form>
+		</div>
+		<div id="empRecords">
+			<table>
+					<tr>
+						<th>First</th>
+						<th>Last</th>
+						<th>EIN</th>
+						<th>Job Title</th>
+						<th>Salary</th>
+					</tr>
+
+					<tr id="total">
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>Total</td>
+						<td></td>
+					</tr>
+			</table>
+		</div>
+</body>
+</html>
